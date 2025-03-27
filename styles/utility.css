@@ -1,10 +1,10 @@
-/* nesting css */
-div:nth-child(2) {
-  margin-inline: auto;
+/*Utility-firt*/
+.grid {
+  display: grid;
 }
 
-div:nth-child(3) {
-  justify-self: end;
+.grid-flow-col {
+  grid-auto-flow: column;
 }
 
 .grid-cols-2 {
@@ -13,4 +13,17 @@ div:nth-child(3) {
 
 .gap-16 {
   gap: 16px;
+}
+
+.text-2xl {
+  font: var(--h1);
+}
+.text-xl {
+  font: var(--h2);
+}
+.text-lg {
+  font: var(--h3);
+}
+.text-sm {
+  font: var(--text-sm);
 }
